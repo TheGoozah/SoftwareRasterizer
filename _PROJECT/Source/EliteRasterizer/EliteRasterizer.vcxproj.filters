@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Rasterizer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Rasterizer\Helpers">
+      <UniqueIdentifier>{3bdb7824-eb17-445b-bf84-b4a0afcb847b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Math">
+      <UniqueIdentifier>{c9adbd22-ec9f-4cc6-829d-264ab9e0899f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Renderer">
+      <UniqueIdentifier>{3ceafb85-813c-47d2-90b4-7005d57d8e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Scenegraph">
+      <UniqueIdentifier>{105d0a79-a6df-496d-98d0-5f44974f6c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Scenegraph\Scenes">
+      <UniqueIdentifier>{5cfc74b2-6fd4-43b3-a260-0183557c15fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EManager.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ERGBColor.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ESingleton.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EMath.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMathUtilities.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix2.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix3.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix4.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint2.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint3.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint4.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector2.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector3.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector4.h">
+      <Filter>Rasterizer\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ERenderer.h">
+      <Filter>Rasterizer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EScene.h">
+      <Filter>Rasterizer\Scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Rasterizer\Scenegraph\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EPrimitives.h">
+      <Filter>Rasterizer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ECamera.h">
+      <Filter>Rasterizer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EOBJParser.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ERenderer.cpp">
+      <Filter>Rasterizer\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Rasterizer\Scenegraph\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
